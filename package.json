@@ -13,7 +13,7 @@
     "test": "npm run jest -- --coverage",
     "test:watch": "npm run jest -- --watchAll",
     "test:verbose": "npm run test -- --verbose",
-    "start": "node server.js",
+    "start": "node lib/app.js",
     "start:watch": "nodemon server.js",
     "load:cats": "mongoimport --db famous-cats --collection cats --drop --jsonArray --file ./data/cats.json"
   },
